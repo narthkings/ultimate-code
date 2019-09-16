@@ -1,77 +1,131 @@
-body{
-  padding: 0px;
-  margin: 0px;
-  text-align: center;
-  color: white;
+body {
+    padding: 0px;
+    margin: 0px;
+    text-align: center;
+    color: white;
 }
+
 
 /* FORM AREA START HERE */
-.main-div{
-  
-  width: 70%;
-  margin: 5% auto 5%;
-  border: 1px solid lightgrey;
-  
-}
-.main-div{
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+
+.main-div {
+    width: 70%;
+    margin: 5% auto 5%;
+    border: 1px solid lightgrey;
 }
 
-.main-div p{
-  padding: 5px;
+.main-div {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
 }
 
-.main-div .image-png h3{
-  
-  position: relative;
-  bottom: 90%;
-  right: 26%;
+.main-div p {
+    padding: 5px;
 }
 
-.main-div .image-png h3{
-  color: #ffffff;
-}
-.main-div .image-png span{
-  color: #EF8C8C;
+.main-div .image-png h3 {
+    position: relative;
+    bottom: 90%;
+    right: 26%;
 }
 
-.main-div .image-png img{
-  /* background: #371d78; */
-  width: 100%;
-  height: 500px;
+.main-div .image-png h3 {
+    color: #ffffff;
 }
+
+.main-div .image-png span {
+    color: #EF8C8C;
+}
+
+.main-div .image-png img {
+    /* background: #371d78; */
+    width: 100%;
+    height: 500px;
+}
+
+
+/* kdvdlv */
 
 .main-div .form-area {
-  color: grey;
-  padding-left: 40px;
+    color: grey;
+    padding-left: 40px;
 }
 
-.main-div .form-area input{
-  display: block;
-  padding: 0px 100px 0px 100px;
-  margin-bottom: 8px;
+.main-div .form-area input {
+    display: block;
+    /* padding: 0px 100px 0px 100px; */
+    border: none;
+    border-bottom: 1px solid grey;
+    margin-bottom: 8px;
+    border-radius: 1px;
+}
 
+.main-div .form-area .pop:focus {
+    outline: none;
+    box-shadow: 0 1.5rem 3rem rgba(0, 0, 0, 0.3);
+    border-bottom: 2px solid #371d78;
 }
 
 .main-div .form-area .btn {
-  display: block;
-  width: 100%;
-  background: #371d78;
-  color: white;
+    display: block;
+    width: 100%;
+    background: #371d78;
+    color: white;
 }
 
-/* Medium and small screen */
-@media all and (max-width: 768px) {
-  
-  .container {
-    
-    margin-top: 10%;
-    margin-bottom: 10%;
-  }
-  .main-div .image-png {
-    display: none;
-  }
- 
+.main-div .form-area .form-box {
+    position: relative;
+}
 
+.form-box .icon {
+    position: absolute;
+    top: 34px;
+    right: 5px;
+}
+
+.icon .icon-img {
+    height: 20px;
+    width: 19px;
+    display: block;
+    /* margin-left: 20px; */
+}
+
+.main-div .form-area .change {
+    margin-top: 20px;
+}
+
+.main-div .form-area .login :link,
+:visited {
+    color: #371d78;
+}
+
+.main-div .form-area .login:hover {
+    color: #7b57d6;
+}
+
+
+/* .main-div .form-area .form-box .anime {
+    font-size: 1.2rem;
+    font-weight: 700;
+    margin-left: 2rem;
+    margin-top: .2rem;
+    display: block;
+    letter-spacing: .1rem;
+    transition: all .3s;
+} */
+
+
+/* Medium and small screen */
+
+@media all and (max-width: 768px) {
+    .container {
+        margin-top: 10%;
+        margin-bottom: 10%;
+    }
+    .main-div .form-area {
+        padding: 20px 0;
+    }
+    .main-div .image-png {
+        display: none;
+    }
 }
