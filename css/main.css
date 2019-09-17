@@ -5,13 +5,22 @@ body {
     color: white;
 }
 
+/* Index */
+.home-container{
+   margin: 0;
+   padding: 0;
+   background: url("../images/Welcome.png") no-repeat center/cover;
+   height: 100vh;
+   position: relative;
+   overflow-y: hidden
+
+}
 
 /* FORM AREA START HERE */
 
 .main-div {
     width: 70%;
     margin: 5% auto 5%;
-    border: 1px solid lightgrey;
 }
 
 .main-div {
@@ -27,11 +36,12 @@ body {
     position: relative;
     bottom: 90%;
     right: 26%;
+    color: #ccc5c5;
 }
 
-.main-div .image-png h3 {
-    color: #ffffff;
-}
+
+
+
 
 .main-div .image-png span {
     color: #EF8C8C;
@@ -40,7 +50,7 @@ body {
 .main-div .image-png img {
     /* background: #371d78; */
     width: 100%;
-    height: 500px;
+    height: 580px;
 }
 
 
@@ -49,12 +59,33 @@ body {
 .main-div .form-area {
     color: grey;
     padding-left: 40px;
+    border: 1px solid lightgray;
+    height: 580px;
+    padding-right: 40px;
+    padding-top: 70px
 }
 
+ .main-div .logo-on-small {
+     display: none;
+ }
+
+.main-div h6{
+    font-size: 17px;
+}
+
+.main-div h5 {
+    font-size: 20px;
+}
+
+.main-div h5{
+    color: #371d78;
+    font-size: 19px;
+}
 .main-div .form-area input {
     display: block;
     /* padding: 0px 100px 0px 100px; */
     border: none;
+   
     border-bottom: 1px solid grey;
     margin-bottom: 8px;
     border-radius: 1px;
@@ -71,6 +102,10 @@ body {
     width: 100%;
     background: #371d78;
     color: white;
+}
+
+.main-div .form-area .google-btn{
+    background: #EF8C8C;
 }
 
 .main-div .form-area .form-box {
@@ -92,6 +127,11 @@ body {
 
 .main-div .form-area .change {
     margin-top: 20px;
+    
+}
+
+.main-div .form-area .change a {
+    color: #EF8C8C;
 }
 
 .main-div .form-area .login :link,
@@ -123,9 +163,37 @@ body {
         margin-bottom: 10%;
     }
     .main-div .form-area {
-        padding: 20px 0;
+       
+         padding-right: 40px;
+        padding-top: 65px;
     }
     .main-div .image-png {
         display: none;
     }
+
+    .main-div .logo-on-small {
+        display: block;
+       
+         color: #757171;
+         position: relative;
+         bottom: 50px;
+        right: 150px;
+
+    }
+    .main-div .logo-on-small span{
+       
+        color: #EF8C8C;
+        
+    }
 }
+
+@media all and (max-width: 584px){
+    .main-div .logo-on-small {
+       
+      
+        bottom: 50px;
+        left: 100px;
+
+    }
+}
+

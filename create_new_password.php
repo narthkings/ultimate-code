@@ -23,29 +23,28 @@
     <div class="form-area">
       <h5 class="logo-on-small">Code<span>Ninja</span></h5>
       <h5>Member Area</h5>
-      <h6>Login to your Account</h6>
+      <h6>Create a New Password</h6>
       <!-- Register form here -->
       <div class="form">
         <form method="POST">
           <div class="form-box">
             <label for="Email"></label>
-            <input type="text" name="email" class="form-control pop" placeholder="Email">
+            <input type="password" name="password" class="form-control pop" placeholder="New Password">
             <span class="icon"><img class="icon-img" src="fonts/Vector-2.png" alt=""></span>
           </div>
          
           <div class="form-box">
             <label for="Password"></label>
-            <input type="password" name="password" class="form-control pop" placeholder="Password">
+            <input type="password" name="confirm_new_password" class="form-control pop" placeholder="Retype New Password">
             <span class="icon"><img class="icon-img" src="fonts/Vector-1.png" alt=""></span>
 
           </div>
          
           <div>
-            <button type="submit" class="btn mt-4" name="login-btn">Login</button>
+            <button type="submit" class="btn mt-4" name="new_password-btn">Create New Password</button>
           </div>
         </form>
-        <div class="change">Don't have an account? <a class="login" href="register.html">Register</a></div>
-        <div class="change">forget password? <a class="login" href="forget_password.html">Recover password</a></div>
+        <div class="change">Don't have an account? <a class="login" href="login.html">Login</a></div>
       </div>
     </div>
 
