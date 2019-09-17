@@ -51,7 +51,6 @@ body{
   display: block;
   padding: 0px 100px 0px 100px;
   margin-bottom: 8px;
-
 }
 
 .main-div .form-area .btn {
@@ -77,14 +76,37 @@ body{
 }
 
 
-/* Login Styling Starts Here */
+Login Styling Starts Here 
 
-.underline{
-      position: absolute;
-      width: 546px;
-      height: 0px;
-      left: 781px;
-      top: 351px;
+form{
+  font-family: Poppins; 
+} 
+   .right-align{
+    text-align: left;
+    color: #371d78;
+} 
 
-      border: 1px solid #000000;
+a{
+  color:#fe8c8c;
 }
+
+a:hover{
+  text-decoration: underline;
+  color:#fe8c8c;
+}
+
+img {
+  height: 15px;
+  width: 13px;
+}
+
+
+input[type=text] {
+  background: transparent;
+  border: none;
+  border-bottom: 1px solid #000000;
+}
+
+input[type="text"] {  
+  text-align: left; 
+} 
