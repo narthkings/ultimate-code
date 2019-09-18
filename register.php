@@ -71,11 +71,7 @@
                     <div>
                         <button type="submit" class="btn mt-4" name="register-btn">Sign Up</button>
                     </div>
-                    <div id="line-breaker">
-                        <div class="line-one"> </div>
-                        or
-                        <div class="line-two"> </div>
-                    </div>
+                    
                     <div>
                         <button type="submit" class="btn mt-4 google-btn">Sing Up with Google</button>
                     </div>
