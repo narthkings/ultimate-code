@@ -40,7 +40,7 @@
           <?php endif; ?>
           <?php if (count($errors) > 0) : ?>
 
-            <div class="alert  text-white">
+            <div class="alert-me  text-white">
               <?php foreach ($errors as $error) : ?>
                 <li><?php echo $error; ?></li>
               <?php endforeach; ?>

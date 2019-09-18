@@ -109,13 +109,10 @@ body {
     font-size: 17px;
 }
 
-.main-div h5 {
-    font-size: 20px;
-}
 
 .main-div h5 {
     color: #371d78;
-    font-size: 19px;
+    font-size: 25px;
 }
 
 .main-div .form-area input {
@@ -251,8 +248,9 @@ body {
     transition: all 1s ease;
 }
 
-.main-div .alert li {
+.main-div .alert-me li {
     list-style: none;
+    font-weight: bold;
 }
 
 .main-div .succuss-alert {
@@ -312,12 +310,19 @@ body {
     .main-div .logo-on-small span {
         color: #EF8C8C;
     }
+
+    .main-div h5 {
+        font-size: 19px;
+    }
 }
 
 @media all and (max-width: 584px) {
     .main-div .logo-on-small {
         bottom: 50px;
         left: 100px;
+    }
+    .main-div h5 {
+        font-size: 19px;
     }
 }
 
@@ -328,5 +333,9 @@ body {
     }
     .main-div .logo-on-small {
         left: 0px;
+    }
+
+    .main-div h5 {
+        font-size: 19px;
     }
 }
