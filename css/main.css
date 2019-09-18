@@ -151,6 +151,7 @@ body {
 
 .form-box .icon {
     position: absolute;
+
     top: 35px;
     right: 5px;
 }
@@ -262,13 +263,6 @@ body {
     text-align: center;
     font-size: 17px;
     transition: all 1s ease;
-}
-
-.main-div .remember-me {
-    /* position: relative;
-    right: 135px;
-    top: 25px; */
-    /* float: left; */
 }
 
 

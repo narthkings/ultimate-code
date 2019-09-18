@@ -15,7 +15,7 @@ function validate() {
     error_message.style.padding = "10px";
     let text;
    if (full_name.length < 4) {
-       text = "Fullname can\'t be less than 4 character";
+       text = "Fullname can\'t be less than 4 characters";
        error_message.textContent = text;
        return false;
    }
@@ -25,11 +25,11 @@ function validate() {
         return false;
    }
    if (password.length < 8 ) {
-       text = "Password can\'t be less than 8 character";
+       text = "Password can\'t be less than 8 characters";
        error_message.textContent = text;
        return false;
    } else if(confirm_password !== password){
-      text = "Password Not Match";
+      text = "Passwords Do Not Match";
        error_message.textContent = text;
        return false; 
    }
@@ -63,11 +63,11 @@ function CreateNewPassword() {
     let text;
 
     if (new_password.length < 8) {
-        text = "Password can\'t be less than 8 character";
+        text = "Password can\'t be less than 8 characters";
         errorCreateNewPassword.textContent = text;
         return false;
     } else if (confirm_new_password !== new_password) {
-        text = "Password Not Match";
+        text = "Passwords Do Not Match";
         errorCreateNewPassword.textContent = text;
         return false;
     }
