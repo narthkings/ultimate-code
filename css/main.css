@@ -5,35 +5,39 @@ body {
     color: white;
 }
 
+
 /* //line breaker */
-.main-div #line-breaker{
+
+.main-div #line-breaker {
     width: 100%;
-    
 }
-.main-div #line-breaker .line-one{
-    
+
+.main-div #line-breaker .line-one {
     border-bottom: 1px solid gray;
     position: relative;
     left: 169px;
     top: 25px;
     width: 147px;
 }
+
 .main-div #line-breaker .line-two {
     width: 147px;
     border-bottom: 1px solid gray;
     position: relative;
-    
 }
 
+
 /* Index */
-.index-message{
+
+.index-message {
     margin-top: 20%;
     font-size: 40px;
 }
 
-.index-message .white{
+.index-message .white {
     color: #fe8b8e;
 }
+
 .home-container {
     margin: 0;
     padding: 0;
@@ -78,9 +82,10 @@ body {
 }
 
 .main-div .image-png.reg-png img {
-   
     height: 705px;
 }
+
+
 /* kdvdlv */
 
 .main-div .form-area {
@@ -93,12 +98,8 @@ body {
 }
 
 .main-div .form-area.reg-form {
-   
     height: 705px;
-   
 }
-
-
 
 .main-div .logo-on-small {
     display: none;
@@ -150,7 +151,7 @@ body {
 
 .form-box .icon {
     position: absolute;
-    top: 30px;
+    top: 24px;
     right: 5px;
 }
 
@@ -229,7 +230,7 @@ body {
     color: #fff;
 }
 
-.main-div #errorCreateNewPassword{
+.main-div #errorCreateNewPassword {
     margin-top: 20px;
     background: #fe8b8e;
     color: #fff;
@@ -239,18 +240,17 @@ body {
     transition: all 0.5s ease;
 }
 
-.main-div .alert-me{
-     margin-top: 20px;
-     background: #fe8b8e;
-     color: #fff;
-     padding: 0px;
-     text-align: center;
-     font-size: 17px;
-     transition: all 1s ease;
-    
+.main-div .alert-me {
+    margin-top: 20px;
+    background: #fe8b8e;
+    color: #fff;
+    padding: 0px;
+    text-align: center;
+    font-size: 17px;
+    transition: all 1s ease;
 }
 
-.main-div .alert li{
+.main-div .alert li {
     list-style: none;
 }
 
@@ -264,12 +264,21 @@ body {
     transition: all 1s ease;
 }
 
-.main-div .remember-me {
-    /* position: relative;
+
+/* .main-div .remember-me { */
+
+
+/* position: relative;
     right: 135px;
     top: 25px; */
-    /* float: left; */
-}
+
+
+/* float: left; */
+
+
+/* } */
+
+
 /* .main-div .remember-me input{
     position: relative;
     left: 70px;
@@ -279,6 +288,7 @@ body {
 .main-div .link-login{
     float: left;
 } */
+
 
 /* .main-div .form-area .form-box .anime {
     font-size: 1.2rem;
