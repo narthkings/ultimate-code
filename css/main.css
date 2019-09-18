@@ -5,13 +5,39 @@ body {
     color: white;
 }
 
+/* //line breaker */
+.main-div #line-breaker{
+    width: 100%;
+    
+}
+.main-div #line-breaker .line-one{
+    
+    border-bottom: 1px solid gray;
+    position: relative;
+    left: 169px;
+    top: 25px;
+    width: 147px;
+}
+.main-div #line-breaker .line-two {
+    width: 147px;
+    border-bottom: 1px solid gray;
+    position: relative;
+    
+}
 
 /* Index */
+.index-message{
+    margin-top: 20%;
+    font-size: 40px;
+}
 
+.index-message .white{
+    color: #fe8b8e;
+}
 .home-container {
     margin: 0;
     padding: 0;
-    background: url("../images/Welcome.png") no-repeat center/cover;
+    background: url("../images/back\ ground\ 2.png") no-repeat center/cover;
     height: 100vh;
     position: relative;
     overflow-y: hidden
@@ -48,20 +74,31 @@ body {
 .main-div .image-png img {
     /* background: #371d78; */
     width: 100%;
-    height: 580px;
+    height: 560px;
 }
 
-
+.main-div .image-png.reg-png img {
+   
+    height: 705px;
+}
 /* kdvdlv */
 
 .main-div .form-area {
     color: grey;
     padding-left: 40px;
     border: 1px solid lightgray;
-    height: 580px;
+    height: 560px;
     padding-right: 40px;
     padding-top: 70px
 }
+
+.main-div .form-area.reg-form {
+   
+    height: 705px;
+   
+}
+
+
 
 .main-div .logo-on-small {
     display: none;
@@ -172,6 +209,76 @@ body {
     height: 0;
 }
 
+.main-div #error_message {
+    margin-top: 20px;
+    background: #fe8b8e;
+    padding: 0px;
+    text-align: center;
+    font-size: 14px;
+    transition: all 0.5s ease;
+    color: #fff;
+}
+
+.main-div #errorForResetPassword {
+    margin-top: 20px;
+    background: #fe8b8e;
+    padding: 0px;
+    text-align: center;
+    font-size: 14px;
+    transition: all 0.5s ease;
+    color: #fff;
+}
+
+.main-div #errorCreateNewPassword{
+    margin-top: 20px;
+    background: #fe8b8e;
+    color: #fff;
+    padding: 0px;
+    text-align: center;
+    font-size: 14px;
+    transition: all 0.5s ease;
+}
+
+.main-div .alert-me{
+     margin-top: 20px;
+     background: #fe8b8e;
+     color: #fff;
+     padding: 0px;
+     text-align: center;
+     font-size: 17px;
+     transition: all 1s ease;
+    
+}
+
+.main-div .alert li{
+    list-style: none;
+}
+
+.main-div .succuss-alert {
+    margin-top: 20px;
+    background: green;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+    font-size: 17px;
+    transition: all 1s ease;
+}
+
+.main-div .remember-me {
+    /* position: relative;
+    right: 135px;
+    top: 25px; */
+    /* float: left; */
+}
+/* .main-div .remember-me input{
+    position: relative;
+    left: 70px;
+    bottom: 25px;
+}
+
+.main-div .link-login{
+    float: left;
+} */
 
 /* .main-div .form-area .form-box .anime {
     font-size: 1.2rem;
