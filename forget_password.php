@@ -1,3 +1,4 @@
+<?php require_once "controllers/authController.php"; ?>
 <!DOCTYPE html>
 <html lang="en">
 
@@ -22,26 +23,28 @@
         </div>
         <div class="form-area">
             <h5 class="logo-on-small">Code<span>Ninja</span></h5>
-            <h5>Member Area</h5>
+            <h5>Membership Area</h5>
             <h6>Recover your Password</h6>
             <!-- Register form here -->
             <div class="form">
-                <form method="POST">
+                <form method="POST" id="myform" onsubmit="return resetPassword();">
+                    <div id="errorForResetPassword">
 
+                    </div>
                     <div class="form-box">
                         <label for="Email"></label>
-                        <input type="text" name="email" class="form-control pop" placeholder="Email">
+                        <input type="text" name="email" class="form-control pop" placeholder="Email" id="email">
                         <span class="icon"><img class="icon-img" src="fonts/Vector.png" alt=""></span>
-                        <span class="text ">Email must be a valid address e.g. me@mydomain.com</span>
+                        <!-- <span class="text ">Email must be a valid address e.g. me@mydomain.com</span> -->
                     </div>
 
 
 
                     <div>
-                        <button type="submit" class="btn mt-4" name="edit-btn">Submit</button>
+                        <button type="submit" class="btn mt-4" name="reset-btn">Reset</button>
                     </div>
                 </form>
-                <div class="change">Return back to <a class="login" href="login.html">login</a></div>
+                <div class="change">Return back to <a class="login" href="login.php">login</a></div>
             </div>
         </div>
 
