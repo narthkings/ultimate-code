@@ -77,7 +77,7 @@
                         <div class="line-two"> </div>
                     </div>
                     <div>
-                        <button type="submit" class="btn mt-4 google-btn">Sing Up with Google</button>
+                        <button type="submit" class="btn mt-4 google-btn">Sign Up with Google</button>
                     </div>
                 </form>
                 <div class="change"> Already have an account? <a class="login" href="login.php">Login</a></div>
