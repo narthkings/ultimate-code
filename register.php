@@ -76,7 +76,7 @@
                         <button type="submit" class="btn mt-4 google-btn">Sign Up with Google</button>
                     </div>
                 </form>
-                <div class="change"> Already have an account? <a class="login" href="login.php">Login</a></div>
+                <div class="change"> Already have an Account? <a class="login" href="login.php">Login</a></div>
             </div>
         </div>
 

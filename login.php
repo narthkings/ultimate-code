@@ -68,8 +68,8 @@
           <label for="">Remember me</label>
           <input type="checkbox">
         </div> -->
-        <div class="change link-login">Don't have an account? <a class="login" href="register.php">Register</a></div>
-        <div class="change link-login">forget password? <a class="login" href="forget_password.php">Recover password</a></div>
+        <div class="change link-login">Don't have an Account? <a class="login" href="register.php">Register</a></div>
+        <div class="change link-login">Forgot Password? <a class="login" href="forget_password.php">Recover Password</a></div>
       </div>
     </div>
 
