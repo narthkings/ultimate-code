@@ -18,3 +18,6 @@ Consisting of 10 memebers. Slack User-name all listed below:
 Here is our Lucid blog post.
 
 https://lucid.blog/onasanyaclajournalist/post/team-codeninjaz-lucid-blog-post-bbd
+
+Hosted Web Domain Url:
+https://jocund-techniques.000webhostapp.com
