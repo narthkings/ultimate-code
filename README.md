@@ -13,3 +13,8 @@ Consisting of 10 memebers. Slack User-name all listed below:
 @Folasayo	
 @AdenikeA	
 @Anekwe Chikezie. 
+
+
+Here is our Lucid blog post.
+
+https://lucid.blog/onasanyaclajournalist/post/team-codeninjaz-lucid-blog-post-bbd
