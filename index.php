@@ -11,6 +11,7 @@ if (!isset($_SESSION['user_id'])) {
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link href="https://fonts.googleapis.com/css?family=Poppins&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="css/main.css">
   <title>Document</title>
 </head>
@@ -29,7 +30,7 @@ if (!isset($_SESSION['user_id'])) {
         </div>
       <?php endif; ?>
 
-      <h3>welcome, <?= $_SESSION['full_name']; ?></h3>
+      <h3>Welcome, <?= $_SESSION['full_name']; ?></h3>
       <a href="index.php?logout=1" class="logout white">Logout</a>
     </div>
 

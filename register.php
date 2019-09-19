@@ -1,16 +1,5 @@
 <?php require_once "controllers/authController.php"; ?>
-<!DOCTYPE html>
-<html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link href="https://fonts.googleapis.com/css?family=Poppins&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="css/bootstrap.css">
-    <link rel="stylesheet" href="css/main.css">
-    <title>Document</title>
-</head>
+<?php require_once "header.php";?>
 
 <body>
 
@@ -43,14 +32,14 @@
                     </div>
                     <div class="form-box">
                         <label for="fullname"></label>
-                        <input type="text" name="full_name" class="form-control pop " placeholder="Full name" id="full_name">
+                        <input type="text" name="full_name" class="form-control pop " placeholder="Full name" id="full_name" value="<?=$full_name;?>">
                         <span class="icon"><img class="icon-img" src="fonts/Vector-2.png" alt=""></span>
                         <!-- <span class="text ">fullname must contain 5-12 characters</span> -->
 
                     </div>
                     <div class="form-box">
                         <label for="Email"></label>
-                        <input type="text" name="email" class="form-control pop" placeholder="Email" id="email">
+                        <input type="text" name="email" class="form-control pop" placeholder="Email" id="email" value="<?=$email;?>">
                         <span class="icon"><img class="icon-img" src="fonts/Vector.png" alt=""></span>
                         <!-- <span class="text ">Email must be a valid address</span> -->
 

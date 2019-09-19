@@ -1,15 +1,5 @@
 <?php require_once "controllers/authController.php"; ?>
-<!DOCTYPE html>
-<html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" href="css/bootstrap.css">
-    <link rel="stylesheet" href="css/main.css">
-    <title>Document</title>
-</head>
+<?php require_once "header.php"; ?>
 
 <body>
 
@@ -33,7 +23,7 @@
                     </div>
                     <div class="form-box">
                         <label for="Email"></label>
-                        <input type="text" name="email" class="form-control pop" placeholder="Email" id="email">
+                        <input type="text" name="email" class="form-control pop" placeholder="Email" id="email" value="<?=$email;?>">
                         <span class="icon"><img class="icon-img" src="fonts/Vector.png" alt=""></span>
                         <!-- <span class="text ">Email must be a valid address e.g. me@mydomain.com</span> -->
                     </div>

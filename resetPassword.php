@@ -2,19 +2,33 @@
 if (!isset($_GET["code"])) {
   exit("Can't find page");
 }
+if (isset($_POST['newPassword-btn'])) {
+  $code = $_GET["code"];
+  $newPassword = mysqli_real_escape_string($db, $_POST['new_password']);
+  $cpw = mysqli_real_escape_string($db, $_POST['confirm_new_password']);
 
+  $code = $_GET["code"];
+  $getEmailQuery = mysqli_query($db, "SELECT * FROM resetpassword WHERE code='$code' LIMIT 1 ");
+  $emails = mysqli_fetch_assoc($getEmailQuery);
+  $email = $emails['email'];
+  if ($email) {
+    $newPassword = password_hash($newPassword, PASSWORD_BCRYPT);
+    $query = mysqli_query($db, "UPDATE tbl_user SET password='$newPassword' WHERE email='$email' ");
+  }
+  //to delete old code and input new code
+
+  if ($query) {
+    $query = mysqli_query($db, "DELETE FROM resetpassword WHERE code='$code' ");
+    $_SESSION['message'] = "Password Updated!";
+    header('location: login.php');
+  } else {
+    $errors['error password update'] = " Error Updating Password!";
+    exit();
+  }
+}
 ?>
-<!DOCTYPE html>
-<html lang="en">
 
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <link rel="stylesheet" href="css/bootstrap.css">
-  <link rel="stylesheet" href="css/main.css">
-  <title>Document</title>
-</head>
+<?php require_once "header.php"; ?>
 
 <body>
 
