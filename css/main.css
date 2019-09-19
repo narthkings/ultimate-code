@@ -3,6 +3,7 @@ body {
     margin: 0px;
     text-align: center;
     color: white;
+    font-family: Poppins, sans-serif;
 }
 
 
@@ -108,7 +109,6 @@ body {
 .main-div h6 {
     font-size: 17px;
 }
-
 
 .main-div h5 {
     color: #371d78;
@@ -309,7 +309,6 @@ body {
     .main-div .logo-on-small span {
         color: #EF8C8C;
     }
-
     .main-div h5 {
         font-size: 19px;
     }
@@ -333,7 +332,6 @@ body {
     .main-div .logo-on-small {
         left: 0px;
     }
-
     .main-div h5 {
         font-size: 19px;
     }
